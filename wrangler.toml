@@ -1,11 +1,11 @@
-name = "server-ali" # todo
+name = "vultr-ali" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "ali.motivar.my.id"
+pattern = "vultr.motivar.my.id"
 custom_domain = true
 
 [vars]
@@ -15,4 +15,4 @@ custom_domain = true
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "6b6059ed-217e-4ec0-a498-a5fe6b04fbae"
+UUID = "d9e086e3-72a9-4890-b537-a8922ac47dfb"
